@@ -31,3 +31,7 @@ C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVill
 C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_VillaAPI\obj\Debug\net7.0\MagicVilla_VillaAPI.pdb
 C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_VillaAPI\obj\Debug\net7.0\MagicVilla_VillaAPI.genruntimeconfig.cache
 C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_VillaAPI\obj\Debug\net7.0\ref\MagicVilla_VillaAPI.dll
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_VillaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_VillaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_VillaAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_VillaAPI\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
