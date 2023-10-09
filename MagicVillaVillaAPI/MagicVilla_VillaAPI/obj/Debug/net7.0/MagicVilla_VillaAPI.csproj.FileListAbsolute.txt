@@ -35,3 +35,5 @@ C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVill
 C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_VillaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_VillaAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_VillaAPI\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_VillaAPI\bin\Debug\net7.0\Serilog.dll
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_VillaAPI\bin\Debug\net7.0\Serilog.Sinks.File.dll
