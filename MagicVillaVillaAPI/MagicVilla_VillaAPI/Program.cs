@@ -1,3 +1,4 @@
+using MagicVilla_VillaAPI;
 using MagicVilla_VillaAPI.Data;
 using MagicVilla_VillaAPI.Logging;
 using Microsoft.AspNetCore.Mvc.Formatters;
@@ -15,10 +16,7 @@ builder.Services.AddDbContext<ApplicationDBContext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultSQLConnection"));
 });
 
-builder.Services.AddMvc(options =>
-{
-    options.OutputFormatters.Add(new XmlSerializerOutputFormatter());
-});
+builder.Services.AddAutoMapper(typeof(MappingConfig));
 
 
 // Add services to the container.
