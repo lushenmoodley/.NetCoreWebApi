@@ -155,59 +155,59 @@ namespace MagicVilla_VillaAPI.Controllers
 
         }
 
-        [HttpPatch("{id:int}", Name = "UpdatePartialVilla")]
-        [ProducesResponseType(StatusCodes.Status204NoContent)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult UpdatePartialVilla(int id,JsonPatchDocument <VillaDTO> villaDTO)
-        {
-            if(villaDTO==null || id==0)
-            {
-                return BadRequest();
-            }
+        //[HttpPatch("{id:int}", Name = "UpdatePartialVilla")]
+        //[ProducesResponseType(StatusCodes.Status204NoContent)]
+        //[ProducesResponseType(StatusCodes.Status400BadRequest)]
+        //public IActionResult UpdatePartialVilla(int id,JsonPatchDocument <VillaDTO> villaDTO)
+        //{
+        //    if(villaDTO==null || id==0)
+        //    {
+        //        return BadRequest();
+        //    }
 
-            var villa = _db.Villas.AsNoTracking().FirstOrDefault(x => x.Id == id);
+        //    var villa = _db.Villas.AsNoTracking().FirstOrDefault(x => x.Id == id);
 
             
-            Villa villaDTO2 = new()
-            {
-                Amenity = villa.Amenity,
-                Details = villa.Details,
-                Id = villa.Id,
-                ImageUrl = villa.ImageUrl,
-                Name = villa.Name,
-                Occupancy = villa.Occupancy,
-                Rate = villa.Rate,
-                Sqft = villa.Sqft,
-            };
+        //    Villa villaDTO2 = new()
+        //    {
+        //        Amenity = villa.Amenity,
+        //        Details = villa.Details,
+        //        Id = villa.Id,
+        //        ImageUrl = villa.ImageUrl,
+        //        Name = villa.Name,
+        //        Occupancy = villa.Occupancy,
+        //        Rate = villa.Rate,
+        //        Sqft = villa.Sqft,
+        //    };
 
-            Villa model = new Villa()
-            {
-                Amenity = villaDTO2.Amenity,
-                Details = villaDTO2.Details,
-                Id = villaDTO2.Id,
-                ImageUrl = villaDTO2.ImageUrl,
-                Name = villaDTO2.Name,
-                Occupancy = villaDTO2.Occupancy,
-                Rate = villaDTO2.Rate,
-                Sqft = villaDTO2.Sqft,
-            };
+        //    Villa model = new Villa()
+        //    {
+        //        Amenity = villaDTO2.Amenity,
+        //        Details = villaDTO2.Details,
+        //        Id = villaDTO2.Id,
+        //        ImageUrl = villaDTO2.ImageUrl,
+        //        Name = villaDTO2.Name,
+        //        Occupancy = villaDTO2.Occupancy,
+        //        Rate = villaDTO2.Rate,
+        //        Sqft = villaDTO2.Sqft,
+        //    };
 
 
-            if (villa==null)
-            {
-                return BadRequest();
-            }
-            /*
-            _db.Villas.Update(model);
-            _db.SaveChanges();*/
+        //    if (villa==null)
+        //    {
+        //        return BadRequest();
+        //    }
+        //    /*
+        //    _db.Villas.Update(model);
+        //    _db.SaveChanges();*/
 
-           if(!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+        //   if(!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
 
-            return NoContent();
+        //    return NoContent();
 
-        }
+        //}
     }
 }
