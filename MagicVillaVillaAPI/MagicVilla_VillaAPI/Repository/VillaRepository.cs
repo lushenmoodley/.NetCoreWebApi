@@ -6,17 +6,19 @@ using System.Linq.Expressions;
 
 namespace MagicVilla_VillaAPI.Repository
 {
-    public class VillaRepository : IVillaRepository
+    public class VillaRepository : Repository <Villa> , IVillaRepository
     {
 
         private readonly ApplicationDBContext _db;
 
-        public VillaRepository(ApplicationDBContext db) {  _db = db; }
+        public VillaRepository(ApplicationDBContext db) :base(db){  _db = db; }
 
-        public async Task UpdateAsync(Villa entity)
+        public async Task<Villa> UpdateAsync(Villa entity)
         {
             entity.UpdateDate = DateTime.Now;
             _db.Villas.Update(entity);
+            await _db.SaveChangesAsync();
+            return entity;
         }
     }
 }
