@@ -28,3 +28,9 @@ C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVill
 C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Web\obj\Debug\net7.0\MagicVilla_Web.pdb
 C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Web\obj\Debug\net7.0\MagicVilla_Web.genruntimeconfig.cache
 C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Web\obj\Debug\net7.0\ref\MagicVilla_Web.dll
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Web\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Web\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Web\bin\Debug\net7.0\MagicVilla_Utility.dll
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Web\bin\Debug\net7.0\MagicVilla_Utility.pdb
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Web\obj\Debug\net7.0\MagicVilla_Web.csproj.AssemblyReference.cache
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Web\obj\Debug\net7.0\MagicVilla_Web.csproj.CopyComplete

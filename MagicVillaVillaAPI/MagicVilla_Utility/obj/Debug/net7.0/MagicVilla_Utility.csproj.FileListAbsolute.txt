@@ -1,0 +1,11 @@
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Utility\bin\Debug\net7.0\MagicVilla_Utility.deps.json
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Utility\bin\Debug\net7.0\MagicVilla_Utility.dll
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Utility\bin\Debug\net7.0\MagicVilla_Utility.pdb
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Utility\obj\Debug\net7.0\MagicVilla_Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Utility\obj\Debug\net7.0\MagicVilla_Utility.AssemblyInfoInputs.cache
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Utility\obj\Debug\net7.0\MagicVilla_Utility.AssemblyInfo.cs
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Utility\obj\Debug\net7.0\MagicVilla_Utility.csproj.CoreCompileInputs.cache
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Utility\obj\Debug\net7.0\MagicVilla_Utility.dll
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Utility\obj\Debug\net7.0\refint\MagicVilla_Utility.dll
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Utility\obj\Debug\net7.0\MagicVilla_Utility.pdb
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Utility\obj\Debug\net7.0\ref\MagicVilla_Utility.dll
