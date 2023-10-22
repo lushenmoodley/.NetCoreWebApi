@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\lushe\\OneDrive\\Documents\\Personal Projects\\dotNet7WebApi\\MagicVillaVillaAPI\\MagicVilla_Web\\wwwroot\\images\\Pic1.jpg",
+      "PackagePath": "staticwebassets\\images\\Pic1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lushe\\OneDrive\\Documents\\Personal Projects\\dotNet7WebApi\\MagicVillaVillaAPI\\MagicVilla_Web\\wwwroot\\images\\Pic2.jpg",
+      "PackagePath": "staticwebassets\\images\\Pic2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lushe\\OneDrive\\Documents\\Personal Projects\\dotNet7WebApi\\MagicVillaVillaAPI\\MagicVilla_Web\\wwwroot\\images\\Pic3.jpeg",
+      "PackagePath": "staticwebassets\\images\\Pic3.jpeg"
+    },
+    {
       "Id": "C:\\Users\\lushe\\OneDrive\\Documents\\Personal Projects\\dotNet7WebApi\\MagicVillaVillaAPI\\MagicVilla_Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
