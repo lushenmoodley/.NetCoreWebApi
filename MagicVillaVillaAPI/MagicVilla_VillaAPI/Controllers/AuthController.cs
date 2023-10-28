@@ -9,7 +9,10 @@ namespace MagicVilla_VillaAPI.Controllers
 
         private readonly IAuthService _authService;
 
-        public AuthController(IAuth)
+        public AuthController(IAuthService authService)
+        {
+            _authService = authService;
+        }
 
         public IActionResult Index()
         {
