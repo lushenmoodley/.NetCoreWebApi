@@ -35,3 +35,8 @@ C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVill
 C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Web\obj\Debug\net7.0\MagicVilla_Web.csproj.AssemblyReference.cache
 C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Web\obj\Debug\net7.0\MagicVilla_Web.csproj.CopyComplete
 C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Web\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\lushe\OneDrive\Documents\Personal Projects\dotNet7WebApi\MagicVillaVillaAPI\MagicVilla_Web\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
