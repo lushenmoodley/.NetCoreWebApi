@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SY+h9a3pnPWznDoF3TtJf3KNf+utmr5M+WMjQB0BTzUzRkKxRFkXLfkdHF0GOvtYNMYkosaJN3gHbI0HBRNhAg==",
+  "dgSpecHash": "KwMN+sq/3JrrrEJcv8aMfj4uSP2unLPBTbPV7kkcbPsq226upwRdgtA2oNHJvlPr+zEY/wRDdJe+LFkHz5NXCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\lushe\\OneDrive\\Documents\\Personal Projects\\dotNet7WebApi\\MagicVillaVillaAPI\\MagicVilla_Web\\MagicVilla_Web.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,12 @@
     "C:\\Users\\lushe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\lushe\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\lushe\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\lushe\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
+    "C:\\Users\\lushe\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.3\\microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\lushe\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "C:\\Users\\lushe\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
     "C:\\Users\\lushe\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\lushe\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
     "C:\\Users\\lushe\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
