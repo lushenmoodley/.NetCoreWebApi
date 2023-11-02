@@ -79,6 +79,7 @@ namespace MagicVilla_Web.Controllers
 
                 if (response != null && response.IsSuccess)
                 {
+                    TempData["success"] = "Villa Number created successfully";
                     return RedirectToAction(nameof(IndexVillaNumber));
                 }
             }

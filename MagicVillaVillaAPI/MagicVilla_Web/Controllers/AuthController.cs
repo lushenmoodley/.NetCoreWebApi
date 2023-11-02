@@ -53,7 +53,8 @@ namespace MagicVilla_Web.Controllers
             }
             else
             {
-                ModelState.AddModelError("Custom Error", response.ErrorMessages.FirstOrDefault());
+                TempData["error"] = response.ErrorMessages.FirstOrDefault();
+                
                 return View(obj);
             }
             return View();
@@ -78,7 +79,15 @@ namespace MagicVilla_Web.Controllers
                 return RedirectToAction("Login");
             }
 
-                return View();
+            if (result.ErrorMessages.Count>0)
+            {
+                TempData["error"] = result.ErrorMessages.First();
+            }
+
+           
+
+
+            return View();
         }
 
         public async Task<IActionResult> Logout(RegisterationRequestDTO obj)

@@ -105,7 +105,7 @@ namespace MagicVilla_VillaAPI.Repository
                         await _roleManager.CreateAsync(new IdentityRole("admin"));
                         await _roleManager.CreateAsync(new IdentityRole("customer"));
                     }
-                    await _userManager.AddToRoleAsync(user, "admin");
+                    await _userManager.AddToRoleAsync(user, "customer");
                     var userToReturn = _db.ApplicationUsers
                         .FirstOrDefault(u => u.UserName == registerationRequestDTO.Username);
                     return new UserDTO()
