@@ -19,49 +19,6 @@ namespace MagicVilla_VillaAPI.Controllers
             this._response = new();
         }
 
-        [HttpGet]
-        [ResponseCache(CacheProfileName = "Default30")]
-        [ProducesResponseType(StatusCodes.Status403Forbidden)]
-        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        public async Task<ActionResult<APIResponse>> GetVillas([FromQuery] int? Occupancy, [FromQuery] string? search, int pageSize = 0, int pageNumber = 1)
-        {
-            try
-            {
-                IEnumerable<User> villaList;
-
-                if (Occupancy > 0)
-                {
-                    villaList = await _dbVilla.GetAllAsync(u => u.Occupancy == Occupancy, pageSize: pageSize, pageNumber: pageNumber);
-                }
-                else
-                {
-                    villaList = await _dbVilla.GetAllAsync();
-                }
-
-                if (!string.IsNullOrEmpty(search))
-                {
-                    villaList = villaList.Where(x => x.Name.ToLower().Contains(search));
-                }
-                Pagination pagination = new() { PageNumber = pageNumber, PageSize = pageSize };
-
-                Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(pagination));
-                _response.Result = _mapper.Map<List<VillaDTO>>(villaList);
-                _response.StatusCode = HttpStatusCode.OK;
-                return Ok(_response);
-            }
-            catch (Exception ex)
-            {
-                _response.IsSuccess = false;
-                _response.ErrorMessages = new List<string> { ex.ToString() };
-
-            }
-
-            return _response;
-
-        }
-
-
         [HttpPost("Login")]
         public async Task<IActionResult> Login([FromBody] LoginRequestDto model)
         {
